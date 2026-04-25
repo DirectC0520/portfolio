@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shihao Lai — Industrial Toy Designer Portfolio. Bridging traditional craftsmanship and digital innovation in toy design.">
+  <meta name="author" content="Shihao Lai">
+  <title>Shihao Lai — Industrial Toy Designer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============================================
+       NAVIGATION
+       ============================================ -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a href="#hero" class="nav-logo">SHIHAO LAI</a>
+      <div class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#storyboard">Storyboard</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" role="dialog" aria-label="Mobile navigation">
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#storyboard">Storyboard</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- ============================================
+       HERO / LANDING SECTION
+       ============================================ -->
+  <section id="hero" class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="hero-pretitle">Industrial Toy Designer</p>
+      <h1 class="hero-title">SHIHAO LAI</h1>
+      <p class="hero-tagline">Bridging Traditional Craftsmanship and Digital Innovation in Toy Design</p>
+      <div class="hero-cta-group">
+        <a href="#portfolio" class="btn-primary">VIEW MY WORK</a>
+        <a href="#resume" class="btn-outline">Download Resume</a>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       ABOUT / BIO SECTION
+       ============================================ -->
+  <section id="about" class="about section-padding">
+    <div class="container">
+      <div class="fade-in">
+        <div class="gold-line"></div>
+        <h2 class="section-heading">About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <p>I am an industrial designer specializing in toy design, currently pursuing my Master of Design in Designed Objects at the School of the Art Institute of Chicago, with a research focus on Toy Design. I hold a Bachelor of Engineering in Industrial Design from Zhengzhou University, China.</p>
+          <p>My design process bridges traditional craftsmanship with cutting-edge digital tools. From hand-sculpted clay models to precision 3D modeling in Rhino and Zbrush, I bring concepts to life through an iterative workflow that honors the tactile nature of toy design while leveraging modern technology for refinement and production.</p>
+          <p>With professional experience at Alpha Group — one of China's leading toy manufacturers — I have hands-on knowledge of product development pipelines, from sample supervision and color scheme development to production-ready three-view technical drawings. My deep passion for the Transformers franchise and character-driven design fuels my commitment to creating toys that inspire imagination and stand as collectible works of art.</p>
+
+          <div class="skills-strip">
+            <span class="skill-badge">Rhino</span>
+            <span class="skill-badge">Zbrush</span>
+            <span class="skill-badge">Keyshot</span>
+            <span class="skill-badge">Adobe Illustrator</span>
+            <span class="skill-badge">Procreate</span>
+            <span class="skill-badge">Clay Sculpting</span>
+            <span class="skill-badge">3D Printing</span>
+          </div>
+        </div>
+
+        <div class="about-image-wrapper fade-in">
+          <img src="images/slide1_image1.png" alt="SD Megatron concept art by Shihao Lai" loading="lazy">
+          <p class="image-caption">SD Megatron — Concept Art</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       PORTFOLIO / PAST WORKS SECTION
+       ============================================ -->
+  <section id="portfolio" class="portfolio section-padding">
+    <div class="container">
+      <div class="fade-in">
+        <div class="gold-line"></div>
+        <h2 class="section-heading">Portfolio</h2>
+        <p class="section-subheading">From Concept to Creation — A Complete Design Journey</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs fade-in">
+        <button class="filter-tab active" data-filter="all">All</button>
+        <button class="filter-tab" data-filter="toy-design">Toy Design</button>
+        <button class="filter-tab" data-filter="illustrations">Illustrations</button>
+        <button class="filter-tab" data-filter="design-drawings">Design Drawings</button>
+        <button class="filter-tab" data-filter="sculpture">Sculpture</button>
+        <button class="filter-tab" data-filter="professional">Professional Work</button>
+      </div>
+
+      <!-- Projects Container -->
+      <div class="projects-container">
+
+        <!-- ========== PROJECT 1: SD Megatron ========== -->
+        <div class="project-card fade-in" data-category="toy-design">
+          <div class="project-header">
+            <h3 class="project-title">SD Megatron</h3>
+            <p class="project-subtitle">Super Deformed Character Figure — Full Design Pipeline</p>
+            <p class="project-description">A complete design-to-production workflow for a super-deformed (SD) Megatron figure. Starting from concept art, through clay sculpting, 3D scanning, Rhino modeling, Zbrush refinement, and final 3D printing with hand-painted finishing.</p>
+          </div>
+          <div class="process-steps">
+            <div class="steps-row">
+              <div class="step-item">
+                <div class="step-image" data-lightbox="sd-megatron" data-src="images/slide1_image1.png" data-caption="Step 1: Concept Art — Start with a concept art">
+                  <img src="images/slide1_image1.png" alt="SD Megatron concept art" loading="lazy">
+                </div>
+                <p class="step-number">Step 1</p>
+                <p class="step-label">Concept Art</p>
+              </div>
+              <div class="step-item">
+                <div class="step-image" data-lightbox="sd-megatron" data-src="images/slide1_image3.jpg" data-caption="Step 2: Clay Model — Make a rough model with clay">
+                  <img src="images/slide1_image3.jpg" alt="SD Megatron clay model" loading="lazy">
+                </div>
+                <p class="step-number">Step 2</p>
+                <p class="step-label">Clay Model</p>
+              </div>
+              <div class="step-item">
+                <div class="step-image" data-lightbox="sd-megatron" data-src="images/slide1_image4.png" data-caption="Step 3: 3D Scan + Rhino — Scan the rough model and put it into Rhino as a reference">
+                  <img src="images/slide1_image4.png" alt="SD Megatron 3D scan in Rhino" loading="lazy">
+                </div>
+                <p class="step-number">Step 3</p>
+                <p class="step-label">3D Scan + Rhino</p>
+              </div>
+              <div class="step-item">
+                <div class="step-image" data-lightbox="sd-megatron" data-src="images/slide1_image2.png" data-caption="Step 4: Zbrush Refinement — Use Zbrush to refine">
+                  <img src="images/slide1_image2.png" alt="SD Megatron Zbrush refinement" loading="lazy">
+                </div>
+                <p class="step-number">Step 4</p>
+                <p class="step-label">Zbrush Refinement</p>
+              </div>
+              <div class="step-item">
+                <div class="step-image" data-lightbox="sd-megatron" data-src="images/slide1_image5.jpg" data-caption="Step 5: 3D Print + Paint — Then print it out">
+                  <img src="images/slide1_image5.jpg" alt="SD Megatron finished painted figure" loading="lazy">
+                </div>
+                <p class="step-number">Step 5</p>
+                <p class="step-label">3D Print + Paint</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-images" style="padding-top: 0;">
+            <button class="view-slide-btn" data-lightbox="sd-megatron-slide" data-src="images/screenshot_01.jpg" data-caption="SD Megatron — Original Presentation Slide">&#9654; View Original Slide</button>
+          </div>
+        </div>
+
+        <!-- ========== PROJECT 2: The One ========== -->
+        <div class="project-card fade-in" data-category="toy-design">
+          <div class="project-header">
+            <h3 class="project-title">The One</h3>
+            <p class="project-subtitle">Reimagining a 1979 Microman Classic</p>
+            <p class="project-description">A reimagination of an unreleased 1979 Microman toy that eventually evolved into the 1980 Diaclone headliner Great Robot Base. The project involved clay modeling using Play-Doh (referencing the WFC Spoiler Pack) and 3D modeling in Rhino.</p>
+          </div>
+          <div class="process-steps">
+            <div class="steps-row">
+              <div class="step-item">
+                <div class="step-image" data-lightbox="the-one" data-src="images/slide2_image2.jpg" data-caption="Step 1: Reference & Research — Historical reference">
+                  <img src="images/slide2_image2.jpg" alt="The One historical reference" loading="lazy">
+                </div>
+                <p class="step-number">Step 1</p>
+                <p class="step-label">Reference & Research</p>
+              </div>
+              <div class="step-item">
+                <div class="step-image" data-lightbox="the-one" data-src="images/slide2_image3.png" data-caption="Step 2: Clay Rough Model — Make a rough model with clay (Play-Doh in WFC Spoiler Pack)">
+                  <img src="images/slide2_image3.png" alt="The One clay rough model" loading="lazy">
+                </div>
+                <p class="step-number">Step 2</p>
+                <p class="step-label">Clay Rough Model</p>
+              </div>
+              <div class="step-item">
+                <div class="step-image" data-lightbox="the-one" data-src="images/slide2_image4.png" data-caption="Step 3: 3D Model (Rhino) — Make 3D model with Rhino">
+                  <img src="images/slide2_image4.png" alt="The One 3D model in Rhino" loading="lazy">
+                </div>
+                <p class="step-number">Step 3</p>
+                <p class="step-label">3D Model (Rhino)</p>
+              </div>
+              <div class="step-item">
+                <div class="step-image" data-lightbox="the-one" data-src="images/slide2_image1.png" data-caption="Step 4: Refined Design — Final design view">
+                  <img src="images/slide2_image1.png" alt="The One refined design" loading="lazy">
+                </div>
+                <p class="step-number">Step 4</p>
+                <p class="step-label">Refined Design</p>
+              </div>
+              <div class="step-item">
+                <div class="step-image" data-lightbox="the-one" data-src="images/slide2_image5.jpg" data-caption="Step 5: Additional View — Alternate angle/detail">
+                  <img src="images/slide2_image5.jpg" alt="The One additional view" loading="lazy">
+                </div>
+                <p class="step-number">Step 5</p>
+                <p class="step-label">Additional View</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-images" style="padding-top: 0;">
+            <button class="view-slide-btn" data-lightbox="the-one-slide" data-src="images/screenshot_02.jpg" data-caption="The One — Original Presentation Slide">&#9654; View Original Slide</button>
+          </div>
+        </div>
+
+        <!-- ========== PROJECT 3: Engineering Vehicle Transformer (CENTERPIECE) ========== -->
+        <div class="project-card fade-in" data-category="toy-design">
+          <div class="project-header">
+            <h3 class="project-title">Engineering Vehicle Transformer</h3>
+            <p class="project-subtitle">Undergraduate Thesis Project — Real Vehicle Transformation Design</p>
+            <p class="project-description">An undergraduate project focused on designing a transformer based on real engineering vehicles. Inspired by designer interviews, this project reimagined the classic G1 toy structure to accommodate realistic vehicle proportions. The complete process spans from initial sketches through clay modeling, structural engineering, 3D printing, articulation testing, detail refinement, rendering, and final hand-painted prototype.</p>
+          </div>
+
+          <!-- Phase Tabs -->
+          <div class="phase-tabs">
+            <button class="phase-tab active" data-phase="phase1">Phase 1: Concept</button>
+            <button class="phase-tab" data-phase="phase2">Phase 2: Design</button>
+            <button class="phase-tab" data-phase="phase3">Phase 3: Structure</button>
+            <button class="phase-tab" data-phase="phase4">Phase 4: Prototype</button>
+            <button class="phase-tab" data-phase="phase5">Phase 5: Final</button>
+          </div>
+
+          <!-- Phase 1: Concept & Research -->
+          <div id="phase1" class="phase-content active">
+            <div class="image-grid">
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide3_image1.png" data-caption="Start with a rough sketch">
+                <img src="images/slide3_image1.png" alt="Engineering Vehicle concept sketch" loading="lazy">
+                <span class="image-label">Rough Sketch</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide3_image2.png" data-caption="Make a rough structural model with clay">
+                <img src="images/slide3_image2.png" alt="Clay structural model" loading="lazy">
+                <span class="image-label">Clay Structural Model</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide3_image3.png" data-caption="Clay model detail">
+                <img src="images/slide3_image3.png" alt="Clay model detail" loading="lazy">
+                <span class="image-label">Clay Model Detail</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide3_image4.jpg" data-caption="Additional reference sketch">
+                <img src="images/slide3_image4.jpg" alt="Additional reference sketch" loading="lazy">
+                <span class="image-label">Reference Sketch</span>
+              </div>
+            </div>
+            <p class="phase-caption">Learning from designers' interviews to make a transformer. Since the theme is real engineering vehicles, the structure has been redesigned compared to the G1 toy.</p>
+          </div>
+
+          <!-- Phase 2: Design Modernization -->
+          <div id="phase2" class="phase-content">
+            <div class="image-grid">
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide4_image1.png" data-caption="Reference material compilation">
+                <img src="images/slide4_image1.png" alt="Reference material compilation" loading="lazy">
+                <span class="image-label">Reference Compilation</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide4_image2.png" data-caption="Design iteration">
+                <img src="images/slide4_image2.png" alt="Design iteration" loading="lazy">
+                <span class="image-label">Design Iteration</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide4_image3.png" data-caption="Modernized design">
+                <img src="images/slide4_image3.png" alt="Modernized design" loading="lazy">
+                <span class="image-label">Modernized Design</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide4_image4.png" data-caption="Design detail">
+                <img src="images/slide4_image4.png" alt="Design detail" loading="lazy">
+                <span class="image-label">Design Detail</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide4_image5.png" data-caption="Final concept">
+                <img src="images/slide4_image5.png" alt="Final concept" loading="lazy">
+                <span class="image-label">Final Concept</span>
+              </div>
+            </div>
+            <p class="phase-caption">Combine the details from different official materials, modernize the design.</p>
+          </div>
+
+          <!-- Phase 3: Structural Engineering -->
+          <div id="phase3" class="phase-content">
+            <div class="image-grid">
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide5_image1.png" data-caption="Based on real vehicles, finalize the structure">
+                <img src="images/slide5_image1.png" alt="Structure finalization" loading="lazy">
+                <span class="image-label">Structure Finalization</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide5_image2.png" data-caption="Build the structure model, prepare to test">
+                <img src="images/slide5_image2.png" alt="Structure model" loading="lazy">
+                <span class="image-label">Structure Model</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide5_image3.jpg" data-caption="Use clay to make head sculpt">
+                <img src="images/slide5_image3.jpg" alt="Clay head sculpt" loading="lazy">
+                <span class="image-label">Clay Head Sculpt</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide5_image4.png" data-caption="Clay head sculpt detail">
+                <img src="images/slide5_image4.png" alt="Head sculpt detail" loading="lazy">
+                <span class="image-label">Head Sculpt Detail</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide5_image5.png" data-caption="Draw three-view diagrams and build models based on clay models">
+                <img src="images/slide5_image5.png" alt="Three-view diagram" loading="lazy">
+                <span class="image-label">Three-View Diagram</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide5_image6.png" data-caption="Three-view diagram detail">
+                <img src="images/slide5_image6.png" alt="Three-view detail" loading="lazy">
+                <span class="image-label">Three-View Detail</span>
+              </div>
+            </div>
+            <p class="phase-caption">It gives me a more intuitive perception of the actual look.</p>
+          </div>
+
+          <!-- Phase 4: Prototyping & Testing -->
+          <div id="phase4" class="phase-content">
+            <div class="image-grid grid-2">
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide6_image1.jpg" data-caption="3D printed structure model">
+                <img src="images/slide6_image1.jpg" alt="3D printed structure model" loading="lazy">
+                <span class="image-label">3D Printed Prototype</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide6_image2.jpg" data-caption="Printed vehicle mode">
+                <img src="images/slide6_image2.jpg" alt="Printed vehicle mode" loading="lazy">
+                <span class="image-label">Vehicle Mode</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide6_image3.png" data-caption="Refined line drawing — robot mode">
+                <img src="images/slide6_image3.png" alt="Line drawing robot mode" loading="lazy">
+                <span class="image-label">Line Drawing — Robot</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide6_image4.png" data-caption="Refined line drawing — vehicle mode">
+                <img src="images/slide6_image4.png" alt="Line drawing vehicle mode" loading="lazy">
+                <span class="image-label">Line Drawing — Vehicle</span>
+              </div>
+            </div>
+            <p class="phase-caption">Print the structure model, test the move ability. Make some adjustments according to the test, then add details on it.</p>
+          </div>
+
+          <!-- Phase 5: Rendering & Final Model -->
+          <div id="phase5" class="phase-content">
+            <div class="image-grid grid-2">
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide7_image1.jpg" data-caption="Digital rendering in toy colors">
+                <img src="images/slide7_image1.jpg" alt="Digital rendering in toy colors" loading="lazy">
+                <span class="image-label">Digital Rendering</span>
+              </div>
+              <div class="grid-item" data-lightbox="eng-vehicle" data-src="images/slide7_image2.jpg" data-caption="Final hand-painted model — I painted it myself">
+                <img src="images/slide7_image2.jpg" alt="Final hand-painted model" loading="lazy">
+                <span class="image-label">Final Painted Model</span>
+              </div>
+            </div>
+            <p class="phase-caption">Rendering according to the toy color. Final model was painted into real vehicle color, I painted it myself.</p>
+          </div>
+
+          <div class="project-images" style="padding-top: 0;">
+            <button class="view-slide-btn" data-lightbox="eng-slide-3" data-src="images/screenshot_03.jpg" data-caption="Engineering Vehicle — Slide 3">&#9654; View Slide 3</button>
+            <button class="view-slide-btn" data-lightbox="eng-slide-4" data-src="images/screenshot_04.jpg" data-caption="Engineering Vehicle — Slide 4">&#9654; View Slide 4</button>
+            <button class="view-slide-btn" data-lightbox="eng-slide-5" data-src="images/screenshot_05.jpg" data-caption="Engineering Vehicle — Slide 5">&#9654; View Slide 5</button>
+            <button class="view-slide-btn" data-lightbox="eng-slide-6" data-src="images/screenshot_06.jpg" data-caption="Engineering Vehicle — Slide 6">&#9654; View Slide 6</button>
+            <button class="view-slide-btn" data-lightbox="eng-slide-7" data-src="images/screenshot_07.jpg" data-caption="Engineering Vehicle — Slide 7">&#9654; View Slide 7</button>
+          </div>
+        </div>
+
+        <!-- ========== PROJECT 4: Illustrations ========== -->
+        <div class="project-card fade-in" data-category="illustrations">
+          <div class="project-header">
+            <h3 class="project-title">Illustrations</h3>
+            <p class="project-subtitle">Character Art &amp; Digital Illustration</p>
+            <p class="project-description">Original digital illustrations showcasing character design skills and dynamic composition, with a focus on Transformers characters.</p>
+          </div>
+          <div class="project-images">
+            <div class="illustration-gallery">
+              <div class="grid-item" data-lightbox="illustrations" data-src="images/slide8_image1.png" data-caption="Transformers illustration — gold, black, and red characters">
+                <img src="images/slide8_image1.png" alt="Transformers illustration with gold and black characters" loading="lazy">
+                <span class="image-label">Transformers Illustration</span>
+              </div>
+              <div class="grid-item" data-lightbox="illustrations" data-src="images/slide8_image2.png" data-caption="Digital illustration">
+                <img src="images/slide8_image2.png" alt="Digital illustration" loading="lazy">
+                <span class="image-label">Digital Illustration</span>
+              </div>
+              <div class="grid-item" data-lightbox="illustrations" data-src="images/slide8_image3.jpg" data-caption="Character illustration">
+                <img src="images/slide8_image3.jpg" alt="Character illustration" loading="lazy">
+                <span class="image-label">Character Illustration</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-images" style="padding-top: 0;">
+            <button class="view-slide-btn" data-lightbox="illust-slide" data-src="images/screenshot_08.jpg" data-caption="Illustrations — Original Presentation Slide">&#9654; View Original Slide</button>
+          </div>
+        </div>
+
+        <!-- ========== PROJECT 5: Design Drawings ========== -->
+        <div class="project-card fade-in" data-category="design-drawings">
+          <div class="project-header">
+            <h3 class="project-title">Design Drawings</h3>
+            <p class="project-subtitle">Technical &amp; Character Design Sheets</p>
+            <p class="project-description">Technical design drawings and character sheets demonstrating precision draftsmanship and attention to mechanical detail.</p>
+          </div>
+          <div class="project-images">
+            <div class="image-grid grid-2">
+              <div class="grid-item" data-lightbox="design-drawings" data-src="images/slide9_image1.png" data-caption="Design Drawing 1">
+                <img src="images/slide9_image1.png" alt="Design drawing 1" loading="lazy">
+                <span class="image-label">Design Drawing</span>
+              </div>
+              <div class="grid-item" data-lightbox="design-drawings" data-src="images/slide9_image2.png" data-caption="Design Drawing 2">
+                <img src="images/slide9_image2.png" alt="Design drawing 2" loading="lazy">
+                <span class="image-label">Design Drawing</span>
+              </div>
+              <div class="grid-item" data-lightbox="design-drawings" data-src="images/slide9_image3.png" data-caption="Design Drawing 3">
+                <img src="images/slide9_image3.png" alt="Design drawing 3" loading="lazy">
+                <span class="image-label">Design Drawing</span>
+              </div>
+              <div class="grid-item" data-lightbox="design-drawings" data-src="images/slide9_image4.png" data-caption="Design Drawing 4 — Detailed character sheet">
+                <img src="images/slide9_image4.png" alt="Design drawing 4 — detailed character sheet" loading="lazy">
+                <span class="image-label">Detailed Character Sheet</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-images" style="padding-top: 0;">
+            <button class="view-slide-btn" data-lightbox="drawings-slide" data-src="images/screenshot_09.jpg" data-caption="Design Drawings — Original Presentation Slide">&#9654; View Original Slide</button>
+          </div>
+        </div>
+
+        <!-- ========== PROJECT 6: Sculpture ========== -->
+        <div class="project-card fade-in" data-category="sculpture">
+          <div class="project-header">
+            <h3 class="project-title">Sculpture</h3>
+            <p class="project-subtitle">Physical Sculpting &amp; Model Making</p>
+            <p class="project-description">Hand-sculpted models and figures demonstrating traditional sculpting skills — a critical foundation for toy design and prototyping.</p>
+          </div>
+          <div class="project-images">
+            <div class="image-grid">
+              <div class="grid-item" data-lightbox="sculpture" data-src="images/slide10_image1.jpg" data-caption="Sculpture 1">
+                <img src="images/slide10_image1.jpg" alt="Sculpture 1" loading="lazy">
+                <span class="image-label">Sculpture</span>
+              </div>
+              <div class="grid-item" data-lightbox="sculpture" data-src="images/slide10_image2.jpg" data-caption="Sculpture 2">
+                <img src="images/slide10_image2.jpg" alt="Sculpture 2" loading="lazy">
+                <span class="image-label">Sculpture</span>
+              </div>
+              <div class="grid-item" data-lightbox="sculpture" data-src="images/slide10_image3.jpg" data-caption="Sculpture 3">
+                <img src="images/slide10_image3.jpg" alt="Sculpture 3" loading="lazy">
+                <span class="image-label">Sculpture</span>
+              </div>
+              <div class="grid-item" data-lightbox="sculpture" data-src="images/slide10_image4.jpg" data-caption="Sculpture 4">
+                <img src="images/slide10_image4.jpg" alt="Sculpture 4" loading="lazy">
+                <span class="image-label">Sculpture</span>
+              </div>
+              <div class="grid-item" data-lightbox="sculpture" data-src="images/slide10_image5.jpg" data-caption="Sculpture 5">
+                <img src="images/slide10_image5.jpg" alt="Sculpture 5" loading="lazy">
+                <span class="image-label">Sculpture</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-images" style="padding-top: 0;">
+            <button class="view-slide-btn" data-lightbox="sculpture-slide" data-src="images/screenshot_10.jpg" data-caption="Sculpture — Original Presentation Slide">&#9654; View Original Slide</button>
+          </div>
+        </div>
+
+        <!-- ========== PROJECT 7: Alpha Group Professional Work ========== -->
+        <div class="project-card fade-in" data-category="professional">
+          <div class="project-header">
+            <h3 class="project-title">Alpha Group Internship</h3>
+            <p class="project-subtitle">Product Design — Professional Experience</p>
+            <p class="project-description">During a three-month internship at Alpha Group (China), one of the country's leading toy manufacturers, I conducted sample supervision and developed color schemes for multiple product lines. I also drew three-view drawings of characters featured in the product line.</p>
+          </div>
+          <div class="project-images">
+            <div class="image-grid grid-2">
+              <div class="grid-item" data-lightbox="alpha-group" data-src="images/slide11_image1.jpg" data-caption="Alpha Group — Product line work sample">
+                <img src="images/slide11_image1.jpg" alt="Alpha Group product line work sample" loading="lazy">
+                <span class="image-label">Product Line Sample</span>
+              </div>
+              <div class="grid-item" data-lightbox="alpha-group" data-src="images/slide11_image2.jpg" data-caption="Alpha Group — Three-view character drawings">
+                <img src="images/slide11_image2.jpg" alt="Alpha Group three-view character drawings" loading="lazy">
+                <span class="image-label">Three-View Drawings</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-images" style="padding-top: 0;">
+            <button class="view-slide-btn" data-lightbox="alpha-slide" data-src="images/screenshot_11.jpg" data-caption="Alpha Group — Original Presentation Slide">&#9654; View Original Slide</button>
+          </div>
+        </div>
+
+      </div><!-- /.projects-container -->
+    </div><!-- /.container -->
+  </section>
+
+  <!-- ============================================
+       STORYBOARD SECTION
+       ============================================ -->
+  <section id="storyboard" class="storyboard section-padding">
+    <div class="container">
+      <div class="fade-in">
+        <div class="gold-line"></div>
+        <h2 class="section-heading">Storyboard</h2>
+        <p class="section-subheading">Original Narrative — A Transformers Story</p>
+      </div>
+
+      <p class="storyboard-intro fade-in">An original 34-panel storyboard and script exploring themes of identity, transformation, and survival within the Transformers universe. This narrative demonstrates world-building capability and deep franchise knowledge — essential skills for developing story-driven toy lines and character backstories.</p>
+
+      <div class="storyboard-image-wrapper fade-in" data-lightbox="storyboard" data-src="images/storyboard.png" data-caption="Original 6-page, 34-panel Transformers storyboard">
+        <img src="images/storyboard.png" alt="Original 6-page, 34-panel Transformers storyboard by Shihao Lai" loading="lazy">
+      </div>
+
+      <div class="script-quotes">
+        <div class="quote-card fade-in">
+          <p>"I must be cursed. I am just a nobody doing some trivial job."</p>
+        </div>
+        <div class="quote-card fade-in">
+          <p>"When those Somebody wave their hands, they can change the entire structure of the universe."</p>
+        </div>
+        <div class="quote-card fade-in">
+          <p>"Now my spark cannot return to the physical universe."</p>
+        </div>
+        <div class="quote-card fade-in">
+          <p>"I've been here for too long, the Unspace has begun to erode my body."</p>
+        </div>
+        <div class="quote-card fade-in">
+          <p>"To amplify my mental faculty, I have to shrink my body with BrainMaster technology."</p>
+        </div>
+        <div class="quote-card fade-in">
+          <p>"Under its guidance, I found a piece of metal. The composition of this metal... is consistent with Hytherion, the beast that devours time and space!"</p>
+        </div>
+        <div class="quote-card fade-in">
+          <p>"In this metal, there actually exists information about a technology. Genetronic Translink! Utilizing Unspace communication technology to remotely drive a sparkless body — this is exactly what I need."</p>
+        </div>
+        <div class="quote-card fade-in">
+          <p>"It's supposed to be… in my image…"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       RESUME SECTION
+       ============================================ -->
+  <section id="resume" class="resume section-padding">
+    <div class="container">
+      <div class="fade-in">
+        <div class="gold-line"></div>
+        <h2 class="section-heading">Resume</h2>
+        <p class="section-subheading">Education, Experience &amp; Skills</p>
+      </div>
+
+      <div class="resume-grid">
+        <!-- Left Column: Education & Experience -->
+        <div class="resume-column fade-in">
+          <h3>Education</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <h4>School of the Art Institute of Chicago, US</h4>
+              <p class="timeline-role">Master of Design</p>
+              <p class="timeline-date">July 2025 – Present</p>
+              <ul class="timeline-details">
+                <li>Major: Designed Objects</li>
+                <li>Research Focus: Toy Design</li>
+              </ul>
+            </div>
+            <div class="timeline-item">
+              <h4>Zhengzhou University, China</h4>
+              <p class="timeline-role">Bachelor of Engineering</p>
+              <p class="timeline-date">September 2020 – June 2024</p>
+              <ul class="timeline-details">
+                <li>Major: Industrial Design</li>
+                <li>Extracurriculars: Student Union, Propaganda Department Illustrator</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3 style="margin-top: var(--space-xl);">Experience</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <h4>Alpha Group, China</h4>
+              <p class="timeline-role">Product Designer Internship</p>
+              <p class="timeline-date">March 2025 – June 2025</p>
+              <ul class="timeline-details">
+                <li>Conducted sample supervision for multiple product lines</li>
+                <li>Made alternate color schemes for action figures</li>
+                <li>Drew three-view drawings</li>
+              </ul>
+            </div>
+            <div class="timeline-item">
+              <h4>Zhengzhou University Industrial Design Graduation Exhibition, China</h4>
+              <p class="timeline-role">Exhibitor</p>
+              <p class="timeline-date">May 2024</p>
+              <ul class="timeline-details">
+                <li>Responsible for setting up, maintaining, and dismantling booth at the exhibition</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Skills & Awards -->
+        <div class="resume-column fade-in">
+          <h3>Software Skills</h3>
+          <div class="resume-skills">
+            <span class="resume-skill-badge">Rhino</span>
+            <span class="resume-skill-badge">Keyshot</span>
+            <span class="resume-skill-badge">Adobe Illustrator</span>
+            <span class="resume-skill-badge">Zbrush</span>
+            <span class="resume-skill-badge">Procreate</span>
+          </div>
+
+          <div class="resume-subsection">
+            <h4>Languages</h4>
+            <ul>
+              <li>Chinese (Native)</li>
+              <li>English (Fluent)</li>
+              <li>Japanese (N3)</li>
+            </ul>
+          </div>
+
+          <div class="resume-subsection">
+            <h4>Hobbies &amp; Additional Skills</h4>
+            <ul>
+              <li>Illustration</li>
+              <li>Manufacturing plastic kits</li>
+              <li>Clay sculpting</li>
+              <li>Miniature model painting</li>
+            </ul>
+          </div>
+
+          <div class="resume-subsection">
+            <h4>Awards</h4>
+            <ul>
+              <li>11th National College Art &amp; Design Awards — First-class Prize of Henan Division (August 2023)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT SECTION
+       ============================================ -->
+  <section id="contact" class="contact section-padding">
+    <div class="container">
+      <div class="contact-content">
+        <div class="fade-in">
+          <div class="gold-line" style="margin-left: auto; margin-right: auto;"></div>
+          <h2 class="section-heading">Get In Touch</h2>
+          <p class="section-subheading">Let's Create Something Amazing Together</p>
+        </div>
+
+        <div class="contact-info fade-in">
+          <div class="contact-item">
+            <p class="contact-label">Email</p>
+            <p class="contact-value"><a href="mailto:slai8@artic.edu">slai8@artic.edu</a></p>
+          </div>
+          <div class="contact-item">
+            <p class="contact-label">Phone</p>
+            <p class="contact-value">(224) 647-5878</p>
+          </div>
+          <div class="contact-item">
+            <p class="contact-label">Location</p>
+            <p class="contact-value">Chicago, IL</p>
+          </div>
+        </div>
+
+        <p class="contact-cta-text fade-in">I am actively seeking opportunities in toy design and product development. Whether you're looking for a designer who can take a concept from clay sketch to production-ready prototype, or someone with deep franchise knowledge and storytelling ability, I'd love to connect.</p>
+
+        <div class="fade-in">
+          <a href="mailto:slai8@artic.edu" class="btn-contact">SEND ME AN EMAIL</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Shihao Lai. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ============================================
+       LIGHTBOX OVERLAY
+       ============================================ -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-label="Image lightbox">
+    <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+    <button class="lightbox-nav lightbox-prev" aria-label="Previous image">&#8249;</button>
+    <button class="lightbox-nav lightbox-next" aria-label="Next image">&#8250;</button>
+    <div class="lightbox-img-container">
+      <img src="" alt="Lightbox image">
+    </div>
+    <p class="lightbox-caption"></p>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
