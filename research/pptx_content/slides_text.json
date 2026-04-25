@@ -1,0 +1,380 @@
+[
+  {
+    "slide_number": 1,
+    "texts": [
+      "SD Megatron",
+      "stat with a concept art",
+      "make a rough model with clay",
+      "scan the rough model and put it into Rhino as a reference",
+      "after Rhino modeling",
+      "use Zbrush to refine",
+      "then print it out"
+    ],
+    "images": [
+      {
+        "filename": "slide1_image1.png",
+        "research_path": "./research/pptx_content/slide1_image1.png",
+        "final_path": "./final/images/slide1_image1.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide1_image2.png",
+        "research_path": "./research/pptx_content/slide1_image2.png",
+        "final_path": "./final/images/slide1_image2.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide1_image3.jpg",
+        "research_path": "./research/pptx_content/slide1_image3.jpg",
+        "final_path": "./final/images/slide1_image3.jpg",
+        "content_type": "image/jpeg"
+      },
+      {
+        "filename": "slide1_image4.png",
+        "research_path": "./research/pptx_content/slide1_image4.png",
+        "final_path": "./final/images/slide1_image4.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide1_image5.jpg",
+        "research_path": "./research/pptx_content/slide1_image5.jpg",
+        "final_path": "./final/images/slide1_image5.jpg",
+        "content_type": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "slide_number": 2,
+    "texts": [
+      "The One",
+      "make a rough model with clay",
+      "(Play-Doh in WFC Spoiler Pack)",
+      "make 3D model with Rhino",
+      "An unreleased 1979 Microman toy that eventually evolved into 1980 Diaclone headliner Great Robot Base."
+    ],
+    "images": [
+      {
+        "filename": "slide2_image1.png",
+        "research_path": "./research/pptx_content/slide2_image1.png",
+        "final_path": "./final/images/slide2_image1.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide2_image2.jpg",
+        "research_path": "./research/pptx_content/slide2_image2.jpg",
+        "final_path": "./final/images/slide2_image2.jpg",
+        "content_type": "image/jpeg"
+      },
+      {
+        "filename": "slide2_image3.png",
+        "research_path": "./research/pptx_content/slide2_image3.png",
+        "final_path": "./final/images/slide2_image3.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide2_image4.png",
+        "research_path": "./research/pptx_content/slide2_image4.png",
+        "final_path": "./final/images/slide2_image4.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide2_image5.jpg",
+        "research_path": "./research/pptx_content/slide2_image5.jpg",
+        "final_path": "./final/images/slide2_image5.jpg",
+        "content_type": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "slide_number": 3,
+    "texts": [
+      "It’s my undergrad project, learning from designers interview to make a transformer,",
+      "start with a rough sketch",
+      "make a rough structural model with clay",
+      "Since the theme is real engineering vehicles, the structure has been redesigned compared to the G1 toy"
+    ],
+    "images": [
+      {
+        "filename": "slide3_image1.png",
+        "research_path": "./research/pptx_content/slide3_image1.png",
+        "final_path": "./final/images/slide3_image1.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide3_image2.png",
+        "research_path": "./research/pptx_content/slide3_image2.png",
+        "final_path": "./final/images/slide3_image2.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide3_image3.png",
+        "research_path": "./research/pptx_content/slide3_image3.png",
+        "final_path": "./final/images/slide3_image3.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide3_image4.jpg",
+        "research_path": "./research/pptx_content/slide3_image4.jpg",
+        "final_path": "./final/images/slide3_image4.jpg",
+        "content_type": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "slide_number": 4,
+    "texts": [
+      "Combine the details form different official materials, modernize the design"
+    ],
+    "images": [
+      {
+        "filename": "slide4_image1.png",
+        "research_path": "./research/pptx_content/slide4_image1.png",
+        "final_path": "./final/images/slide4_image1.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide4_image2.png",
+        "research_path": "./research/pptx_content/slide4_image2.png",
+        "final_path": "./final/images/slide4_image2.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide4_image3.png",
+        "research_path": "./research/pptx_content/slide4_image3.png",
+        "final_path": "./final/images/slide4_image3.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide4_image4.png",
+        "research_path": "./research/pptx_content/slide4_image4.png",
+        "final_path": "./final/images/slide4_image4.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide4_image5.png",
+        "research_path": "./research/pptx_content/slide4_image5.png",
+        "final_path": "./final/images/slide4_image5.png",
+        "content_type": "image/png"
+      }
+    ]
+  },
+  {
+    "slide_number": 5,
+    "texts": [
+      "Based on real vehicles, finalize the structure",
+      "Build the structure model, prepare to test",
+      "Use clay to make head sculpt",
+      "It gives me a A more intuitive perception of the actual look",
+      "Draw three-view diagrams and build models based on clay models"
+    ],
+    "images": [
+      {
+        "filename": "slide5_image1.png",
+        "research_path": "./research/pptx_content/slide5_image1.png",
+        "final_path": "./final/images/slide5_image1.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide5_image2.png",
+        "research_path": "./research/pptx_content/slide5_image2.png",
+        "final_path": "./final/images/slide5_image2.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide5_image3.jpg",
+        "research_path": "./research/pptx_content/slide5_image3.jpg",
+        "final_path": "./final/images/slide5_image3.jpg",
+        "content_type": "image/jpeg"
+      },
+      {
+        "filename": "slide5_image4.png",
+        "research_path": "./research/pptx_content/slide5_image4.png",
+        "final_path": "./final/images/slide5_image4.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide5_image5.png",
+        "research_path": "./research/pptx_content/slide5_image5.png",
+        "final_path": "./final/images/slide5_image5.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide5_image6.png",
+        "research_path": "./research/pptx_content/slide5_image6.png",
+        "final_path": "./final/images/slide5_image6.png",
+        "content_type": "image/png"
+      }
+    ]
+  },
+  {
+    "slide_number": 6,
+    "texts": [
+      "Print the structure model, test the move ability",
+      "Make some adjustments according to the test, then add details on it"
+    ],
+    "images": [
+      {
+        "filename": "slide6_image1.jpg",
+        "research_path": "./research/pptx_content/slide6_image1.jpg",
+        "final_path": "./final/images/slide6_image1.jpg",
+        "content_type": "image/jpeg"
+      },
+      {
+        "filename": "slide6_image2.jpg",
+        "research_path": "./research/pptx_content/slide6_image2.jpg",
+        "final_path": "./final/images/slide6_image2.jpg",
+        "content_type": "image/jpeg"
+      },
+      {
+        "filename": "slide6_image3.png",
+        "research_path": "./research/pptx_content/slide6_image3.png",
+        "final_path": "./final/images/slide6_image3.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide6_image4.png",
+        "research_path": "./research/pptx_content/slide6_image4.png",
+        "final_path": "./final/images/slide6_image4.png",
+        "content_type": "image/png"
+      }
+    ]
+  },
+  {
+    "slide_number": 7,
+    "texts": [
+      "Rendering according to the Toy color",
+      "Final model was painted into real vehicle color, I painted it myself"
+    ],
+    "images": [
+      {
+        "filename": "slide7_image1.jpg",
+        "research_path": "./research/pptx_content/slide7_image1.jpg",
+        "final_path": "./final/images/slide7_image1.jpg",
+        "content_type": "image/jpeg"
+      },
+      {
+        "filename": "slide7_image2.jpg",
+        "research_path": "./research/pptx_content/slide7_image2.jpg",
+        "final_path": "./final/images/slide7_image2.jpg",
+        "content_type": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "slide_number": 8,
+    "texts": [
+      "Illustrations"
+    ],
+    "images": [
+      {
+        "filename": "slide8_image1.png",
+        "research_path": "./research/pptx_content/slide8_image1.png",
+        "final_path": "./final/images/slide8_image1.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide8_image2.png",
+        "research_path": "./research/pptx_content/slide8_image2.png",
+        "final_path": "./final/images/slide8_image2.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide8_image3.jpg",
+        "research_path": "./research/pptx_content/slide8_image3.jpg",
+        "final_path": "./final/images/slide8_image3.jpg",
+        "content_type": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "slide_number": 9,
+    "texts": [
+      "Design Drawings"
+    ],
+    "images": [
+      {
+        "filename": "slide9_image1.png",
+        "research_path": "./research/pptx_content/slide9_image1.png",
+        "final_path": "./final/images/slide9_image1.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide9_image2.png",
+        "research_path": "./research/pptx_content/slide9_image2.png",
+        "final_path": "./final/images/slide9_image2.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide9_image3.png",
+        "research_path": "./research/pptx_content/slide9_image3.png",
+        "final_path": "./final/images/slide9_image3.png",
+        "content_type": "image/png"
+      },
+      {
+        "filename": "slide9_image4.png",
+        "research_path": "./research/pptx_content/slide9_image4.png",
+        "final_path": "./final/images/slide9_image4.png",
+        "content_type": "image/png"
+      }
+    ]
+  },
+  {
+    "slide_number": 10,
+    "texts": [
+      "Sculpture"
+    ],
+    "images": [
+      {
+        "filename": "slide10_image1.jpg",
+        "research_path": "./research/pptx_content/slide10_image1.jpg",
+        "final_path": "./final/images/slide10_image1.jpg",
+        "content_type": "image/jpeg"
+      },
+      {
+        "filename": "slide10_image2.jpg",
+        "research_path": "./research/pptx_content/slide10_image2.jpg",
+        "final_path": "./final/images/slide10_image2.jpg",
+        "content_type": "image/jpeg"
+      },
+      {
+        "filename": "slide10_image3.jpg",
+        "research_path": "./research/pptx_content/slide10_image3.jpg",
+        "final_path": "./final/images/slide10_image3.jpg",
+        "content_type": "image/jpeg"
+      },
+      {
+        "filename": "slide10_image4.jpg",
+        "research_path": "./research/pptx_content/slide10_image4.jpg",
+        "final_path": "./final/images/slide10_image4.jpg",
+        "content_type": "image/jpeg"
+      },
+      {
+        "filename": "slide10_image5.jpg",
+        "research_path": "./research/pptx_content/slide10_image5.jpg",
+        "final_path": "./final/images/slide10_image5.jpg",
+        "content_type": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "slide_number": 11,
+    "texts": [
+      "Working Experience",
+      "Intered in Alpha Group(China) for three months, during this period, I conducted sample supervision and color schemes for multiple product lines, and also drew three-view drawings of the two characters(that bike) in the image"
+    ],
+    "images": [
+      {
+        "filename": "slide11_image1.jpg",
+        "research_path": "./research/pptx_content/slide11_image1.jpg",
+        "final_path": "./final/images/slide11_image1.jpg",
+        "content_type": "image/jpeg"
+      },
+      {
+        "filename": "slide11_image2.jpg",
+        "research_path": "./research/pptx_content/slide11_image2.jpg",
+        "final_path": "./final/images/slide11_image2.jpg",
+        "content_type": "image/jpeg"
+      }
+    ]
+  }
+]
