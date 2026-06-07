@@ -1537,3 +1537,117 @@ body::before {
     text-align: center;
   }
 }
+
+/* 4-step process rows (e.g. The One) */
+.steps-row.cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 992px) {
+  .steps-row.cols-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .steps-row.cols-4 .step-item::after {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .steps-row.cols-4 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Contact buttons row (email + social icons) */
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+}
+
+.social-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid var(--color-accent-gold);
+  color: var(--color-accent-gold);
+  background: transparent;
+  transition: all var(--transition-normal);
+  text-decoration: none;
+}
+
+.social-icon-btn:hover {
+  background: var(--color-accent-gold);
+  color: var(--color-bg-primary);
+  transform: translateY(-2px);
+}
+
+.social-icon-btn svg {
+  width: 22px;
+  height: 22px;
+}
+
+/* ============================================
+   EXHIBITION — BERLIN DESIGN WEEK
+   ============================================ */
+.exhibition {
+  background: var(--color-bg-primary);
+  position: relative;
+  z-index: 1;
+}
+
+.exhibition-feature {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: var(--space-2xl);
+  align-items: center;
+}
+
+.exhibition-image-wrapper {
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color var(--transition-normal);
+}
+
+.exhibition-image-wrapper:hover {
+  border-color: var(--color-accent-gold);
+}
+
+.exhibition-image-wrapper img {
+  width: 100%;
+  display: block;
+}
+
+.exhibition-text p {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-lg);
+  line-height: 1.8;
+}
+
+.exhibition-text em {
+  color: var(--color-accent-gold);
+  font-style: italic;
+}
+
+@media (max-width: 992px) {
+  .exhibition-feature {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+}
+
+/* References-available note in Contact */
+.references-note {
+  margin-top: var(--space-xl);
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
